@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+:root {
+  --text-color: #000;
+  --main-color: #03C75A;
+  --second-color: #888;
+  --master-font: 'Black Han Sans';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+body {
+  min-height: 100vh;
+}
+
+body>*>div {
+  max-width: 800px;
+  width: 800px;
+  margin-bottom: 50px;
+  background-color: rgba(255, 0, 0, .3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+/* banner ads */
+#ads {
+  max-width: 458px;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+#ads img {
+  width: 100%;
+}
+
+
+/* ########## header design ########## */
+.header-content {
+  /* 작업 완료 후 백그라운드 컬러 복귀 */
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#header-transparent {
+  display: none;
+}
+
+#lang-box {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+#sel-lang {
+  padding: 7px 20px 7px 10px;
+  border: 1px solid var(--second-color);
+  cursor: pointer;
+  /* select 기본 드롭다운 방향 아이콘 미표시 */
+  -webkit-appearance: none;
+}
+
+#arrow-down {
+  width: 30px;
+  height: 30px;
+  /* background-color: rgba(0,0,255,.3); */
+  position: absolute;
+  top: 0;
+  right: 0;
+  user-select: none;
+  /* arrow-down 클릭 비활성화(드롭다운 표시되도록) */
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#arrow-down i {
+  color: #999;
+}
+
+#logo {
+  display: inline-block;
+  width: 155px;
+  height: 30px;
+  margin-top: 100px;
+  background: url(/images/m_sp_00_common_978240a6.png);
+  background-size: 244px 107px;
+  background-position: 0 -51px;
+}
+
+#logo > h1 {
+  /* 로고 이미지 없을 경우 대체 */
+  display: none;
+  color: var(--main-color);
+  font-family: var(--master-font);
+  font-size: 3rem;
+  font-weight: 100;
+  margin-top: 100px;
+}
+
+
+/* ########## main design ########## */
+
+/* ########## footer design ########## */
