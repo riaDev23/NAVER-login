@@ -19,6 +19,9 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   min-height: 100vh;
 }
 
@@ -116,6 +119,7 @@ body>*>div {
 /* ########## footer design ########## */
 footer *{
   font-size: 12px;
+  letter-spacing: -.5px;
   color: var(--second-color);
 }
 .footer-content {
