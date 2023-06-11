@@ -114,3 +114,48 @@ body>*>div {
 /* ########## main design ########## */
 
 /* ########## footer design ########## */
+footer *{
+  font-size: 12px;
+  color: var(--second-color);
+}
+.footer-content {
+  background: rgba(0, 0, 0, 0);
+}
+
+.footer-content div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.footer-content div a {
+  display: inline-block;
+  width: 70px;
+  height: 15px;
+  background: url('/images/m_sp_00_common_978240a6.png');
+  background-size: 244px 107px;
+  background-position: -157px -51px;
+  margin: 0 5px;
+}
+
+.footer-content div span:first-child {
+  /* 로고 표시 안될때 텍스트로 대체할 요소*/
+  display: none;
+}
+
+.footer-content ul{
+  display: flex;
+}
+
+.footer-content ul li:not(:last-child)::after {
+  content: '|';
+  margin: 0 .5em;
+  color: #999;
+}
+
+#corp {
+  display: contents;
+  color: black;
+}
