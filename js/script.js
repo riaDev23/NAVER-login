@@ -43,9 +43,9 @@ loginBtn.addEventListener("click", () => {
   }
 });
 
-document.addEventListener('keydown', (event) => {
-  const capsLockOn = event.getModifierState('CapsLock');
-  
+document.addEventListener("keydown", (event) => {
+  const capsLockOn = event.getModifierState("CapsLock");
+
   if (capsLockOn) {
     document.querySelector(".caps-err").classList.remove("blind");
   } else {
