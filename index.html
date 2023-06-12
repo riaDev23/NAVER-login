@@ -53,20 +53,32 @@
         <ul>
           <li>
             <div id="id">
+              <div id="id-icon"></div>
               <label for="id"><span>아이디</span></label>
+              <input type="text" name="id" placeholder="아이디"><span> 삭제</span>
             </div>
-            <input type="text" name="id" placeholder="아이디"><span> 삭제</span>
             <div id="password">
+              <div id="password-icon"></div>
               <label for="password"><span>비밀번호</span></label>
+              <input type="password" name="password" placeholder="비밀번호"><span> 삭제</span>
             </div>
-            <input type="password" name="password" placeholder="비밀번호"><span> 삭제</span>
-            <div id="keep-login">
-              <input type="checkbox" name="keep-login"><label for="keep-login">로그인 상태 유지</label>
+            <div id="toggle-id">
+              <div id="keep-login">
+                <label>
+                  <input type="checkbox" name="keep-login">
+                  <span class="on">로그인 상태 유지</span>
+                </label>
+              </div>
+              <div id="ip-secure">
+                <a href="#">IP보안</a>
+                <label>
+                  <input type="checkbox" name="ip-secure" checked>
+                  <span class="on"></span>
+                  <span>on</span>
+                </label>
+              </div>
             </div>
             <div>
-              <a href="#">IP보안</a>
-              <input type="checkbox" name="ip-secure" checked>
-              <label for="ip-secure">on</label>
               <div id="error">
                 <div id="caps-err">
                   <b>CapsLock</b>이 켜져 있습니다.
@@ -78,7 +90,7 @@
                   <b>비밀번호</b>를 입력해 주세요.
                 </div>
               </div>
-              <div>
+              <div id="login-btn">
                 <button>로그인</button>
               </div>
             </div>
