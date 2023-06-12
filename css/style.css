@@ -327,9 +327,12 @@ body>*>div {
 }
 
 #find-account ul li:not(:last-child)::after {
+  position: relative;
+  top: -2px;
   content: '|';
   margin: 0 8px;
-  color: var(--second-color);
+  font-size: 11px;
+  color: #ccc;
 }
 
 /* ########## footer design ########## */
@@ -372,7 +375,7 @@ footer *{
 .footer-content ul li:not(:last-child)::after {
   content: '|';
   margin: 0 .5em;
-  color: #999;
+  color: #ccc;
 }
 
 .footer-content ul li:nth-child(2) a {
