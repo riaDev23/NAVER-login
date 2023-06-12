@@ -5,6 +5,8 @@
   --main-color: #03C75A;
   --second-color: #888;
   --master-font: 'Black Han Sans';
+  --main-width: 458px; /* desktop 환경 너비 */
+  --sub-width: 90vw; /* mobile 환경 너비 */
 }
 
 * {
@@ -37,8 +39,12 @@ body>*>div {
 }
 
 /* banner ads */
+.banner {
+  background-color: rgba(0, 0, 0, 0);
+}
+
 #ads {
-  max-width: 458px;
+  max-width: var(--main-width);
   width: 100%;
   height: auto;
   cursor: pointer;
@@ -115,6 +121,47 @@ body>*>div {
 
 
 /* ########## main design ########## */
+
+/* 로그인 타입 설정 */
+#login-type {
+  display: none;
+}
+/********************/
+
+#login-type-id {
+  max-width: var(--main-width);
+  width: 100%;
+  border: 1px solid var(--second-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#error * {
+  display: none;
+  margin: 20px 0;
+  font-size: 12px;
+  color: red;
+}
+
+#find-account {
+  margin: 20px 0;
+}
+
+#find-account ul {
+  font-size: 14px;
+  display: flex;
+}
+
+#find-account ul li a{
+  color: var(--second-color);
+}
+
+#find-account ul li:not(:last-child)::after {
+  content: '|';
+  margin: 0 10px;
+  color: var(--second-color);
+}
 
 /* ########## footer design ########## */
 footer *{
