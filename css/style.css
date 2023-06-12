@@ -108,7 +108,7 @@ body>*>div {
   width: 155px;
   height: 30px;
   margin-top: 100px;
-  background: url(/images/m_sp_00_common_978240a6.png);
+  background: url(images/m_sp_00_common_978240a6.png);
   background-size: 244px 107px;
   background-position: 0 -51px;
 }
@@ -180,7 +180,7 @@ body>*>div {
   width: 17px;
   height: 17px;
   margin-right: 5px;
-  background: url(/images/m_sp_01_login_0c98137b.png);
+  background: url(images/m_sp_01_login_0c98137b.png);
   background-repeat: no-repeat;
   background-position: -131px -224px;
   background-size: 283px 246px;
@@ -191,7 +191,7 @@ body>*>div {
   width: 17px;
   height: 17px;
   margin-right: 5px;
-  background: url(/images/m_sp_01_login_008d5216.png);
+  background: url(images/m_sp_01_login_008d5216.png);
   background-repeat: no-repeat;
   background-position: -160px -172px;
   background-size: 266px 225px;
@@ -202,7 +202,7 @@ body>*>div {
   width: 17px;
   height: 17px;
   margin-right: 5px;
-  background: url(/images/m_sp_01_login_008d5216.png);
+  background: url(images/m_sp_01_login_008d5216.png);
   background-repeat: no-repeat;
   background-position: -124px -172px;
   background-size: 266px 225px;
@@ -239,19 +239,19 @@ body>*>div {
 }
 
 #login-type li:nth-of-type(1) input:checked+a .type-icon {
-  background: url(/images/m_sp_01_login_008d5216.png);
+  background: url(images/m_sp_01_login_008d5216.png);
   background-size: 266px 225px;
   background-position: -142px -172px;
 }
 
 #login-type li:nth-of-type(2) input:checked+a .type-icon {
-  background: url(/images/m_sp_01_login_0c98137b.png);
+  background: url(images/m_sp_01_login_0c98137b.png);
   background-size: 283px 246px;
   background-position: -126px -179px;
 }
 
 #login-type li:nth-of-type(3) input:checked+a .type-icon {
-  background: url(/images/m_sp_01_login_0c98137b.png);
+  background: url(images/m_sp_01_login_0c98137b.png);
   background-size: 283px 246px;
   background-position: -52px -179px;
 }
@@ -328,7 +328,7 @@ body>*>div {
   width: 20px;
   height: 20px;
   background-color: red;
-  background: url(/images/m_sp_01_login_008d5216.png);
+  background: url(images/m_sp_01_login_008d5216.png);
   background-position: -244px -187px;
   background-repeat: no-repeat;
   background-size: 266px 225px;
@@ -336,13 +336,13 @@ body>*>div {
 }
 
 #id-icon {
-  background: url(/images/m_sp_01_login_008d5216.png);
+  background: url(images/m_sp_01_login_008d5216.png);
   background-position: -93px -203px;
   background-size: 266px 225px;
 }
 
 #password-icon {
-  background: url(/images/m_sp_01_login_008d5216.png);
+  background: url(images/m_sp_01_login_008d5216.png);
   background-position: -129px -203px;
   background-size: 266px 225px;
 }
@@ -374,7 +374,7 @@ body>*>div {
 #keep-login span::before {
   content: "";
   display: inline-block;
-  background: url(/images/m_sp_01_login_008d5216.png);
+  background: url(images/m_sp_01_login_008d5216.png);
   background-size: 266px 225px;
   background-position: -244px -87px;
   background-repeat: no-repeat;
@@ -507,7 +507,7 @@ footer * {
   display: inline-block;
   width: 70px;
   height: 15px;
-  background: url('/images/m_sp_00_common_978240a6.png');
+  background: url('images/m_sp_00_common_978240a6.png');
   background-size: 244px 107px;
   background-position: -157px -51px;
   margin: 0 5px;
