@@ -70,15 +70,17 @@
       <div id="login-type-id">
         <ul>
           <li>
-            <div id="id">
+            <div class="id">
               <div id="id-icon"></div>
               <label for="id"><span>아이디</span></label>
-              <input type="text" name="id" placeholder="아이디"><span> 삭제</span>
+              <input type="text" name="id" placeholder="아이디" required><span> 삭제</span>
+              <span class="on"></span>
             </div>
-            <div id="password">
+            <div class="password">
               <div id="password-icon"></div>
               <label for="password"><span>비밀번호</span></label>
-              <input type="password" name="password" placeholder="비밀번호"><span> 삭제</span>
+              <input type="password" name="password" placeholder="비밀번호" required><span> 삭제</span>
+              <span class="on"></span>
             </div>
             <div id="toggle-id">
               <div id="keep-login">
@@ -98,13 +100,13 @@
             </div>
             <div>
               <div id="error">
-                <div id="caps-err">
+                <div class="caps-err blind">
                   <b>CapsLock</b>이 켜져 있습니다.
                 </div>
-                <div id="id-err">
+                <div class="id-err blind">
                   <b>아이디</b>를 입력해 주세요.
                 </div>
-                <div id="pass-err">
+                <div class="pass-err blind">
                   <b>비밀번호</b>를 입력해 주세요.
                 </div>
               </div>
@@ -156,6 +158,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="/js/script.js"></script>
 </body>
 
 </html>
